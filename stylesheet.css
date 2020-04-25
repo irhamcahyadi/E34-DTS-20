@@ -11,7 +11,7 @@ ul,li{
 
 .header-text h4,h1{
     margin: 0;
-    color: white;
+    color: Black;
 }
 
 .header-text{
@@ -30,7 +30,9 @@ li a{
 }
 
 header{
-    background-color: teal;
+    background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
+    background-size: cover;
+    height: 400px;
 }
 
 nav{
@@ -55,3 +57,55 @@ nav{
     top: -50px;
     text-align: center;
 }
+
+main{
+    background-color: #44E7EB;
+    height: 600px;   
+}
+
+footer{
+    background-color: #2f5167;
+    color: #2f5167;
+    height: 50px;
+    padding: 5px;
+}   
+ 
+.footer-logo{
+    font-size: 32px;
+    float: left;
+}
+
+.footer-logo img{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.footer-social{
+    float: right;
+    padding: 5px;
+}
+
+.footer-social li{
+    padding-right: 5px;   
+}
+
+.facebook{
+    background-color: #3b5998;   
+}
+
+.twitter{
+    background-color: #55acee;
+}    
+
+.instagram{
+    background-color: red;
+}    
+
+.btn {
+    padding; 0px 10px;
+}    
+
+.btn:hover {
+    opacity: 0.5;
+}    
