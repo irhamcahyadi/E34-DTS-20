@@ -91,3 +91,7 @@ footer{
 .fa {
     bakground-color: white;   
 }    
+
+.fa:hover {
+    opacity: 0.5;
+}    
