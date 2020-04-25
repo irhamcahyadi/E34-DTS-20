@@ -39,7 +39,7 @@ li a{
 }
 
 .navbar li:hover {
-    background-color;rgba(34, 49, 52, 0.9);
+    background-color: rgba(34, 49, 52, 0.9);
     opacity: 1;
 }
   
