@@ -32,6 +32,7 @@ li a{
 header{
     background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
     background-size: cover;
+    height: 400px;
 }
 
 nav{
@@ -58,8 +59,8 @@ nav{
 }
 
 main{
-    background-image: url(https://files.123freevectors.com/wp-content/original/130995-blue-and-white-low-poly-background-template.jpg);
-    height: cover;   
+    background-color: #44E7EB;
+    height: 600px;   
 }
 
 footer{
