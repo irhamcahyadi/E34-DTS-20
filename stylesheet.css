@@ -31,6 +31,7 @@ li a{
 
 .navbar li:hover {
     rgba(34, 49, 52, 0.9)
+    opacity: 1;
 }
   
 header{
