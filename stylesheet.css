@@ -31,6 +31,7 @@ li a{
 
 header{
     background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
+    background-size: cover;
 }
 
 nav{
