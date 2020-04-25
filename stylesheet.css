@@ -76,12 +76,12 @@ footer{
 .footer-logo img{
     width: 100px;
     height: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 .footer-social{
     float: right;
-    padding: 20px;
+    padding: 5px;
 }
 
 .footer-social li{
