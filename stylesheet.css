@@ -25,13 +25,13 @@ li a{
 
 .navbar{
     font-size: 16px;
-    float: right;
     padding-top: 20px; 
     margin-right: 20px;
     transition: all 0.5s;
 }
 
 .navbar li {
+    float: left;
     line-height: 20px;
     display:block;
 }
