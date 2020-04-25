@@ -102,18 +102,19 @@ footer{
 }
 
 .facebook{
-    background-color: #3b5998;   
+    background-color: #3b5998;
+    padding-left; 20px;
+    padding-right; 20px;
 }
 
 .twitter{
     background-color: #55acee;
+    padding-left; 20px;
+    padding-right; 20px;
 }    
 
 .instagram{
     background-color: red;
-}    
-
-.fa {
     padding-left; 20px;
     padding-right; 20px;
 }    
