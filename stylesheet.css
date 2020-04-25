@@ -27,6 +27,7 @@ li a{
     font-size: 16px;
     padding-top: 20px; 
     margin-right: 20px;
+    transition: all 0.5s;
 }
 
 .navbar li:hover {
