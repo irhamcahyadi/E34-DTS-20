@@ -58,6 +58,50 @@ nav{
     text-align: center;
 }
 
+
+.konten-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .team {
+    float: left;
+    width: 20%;
+  }
+
+  .team h4 {
+    margin-bottom: 0;
+  }
+  
+  .team-icon {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .team-icon img {
+      width: 200px;
+      height: 200px;
+  }
+
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
 main{
     background-color: #44E7EB;
     height: 600px;   
@@ -109,3 +153,4 @@ footer{
 .btn:hover {
     opacity: 0.5;
 }    
+
