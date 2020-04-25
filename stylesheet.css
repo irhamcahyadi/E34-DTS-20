@@ -55,3 +55,20 @@ nav{
     top: -50px;
     text-align: center;
 }
+
+.footer-logo {
+  font-size:32px;
+  float:left;
+}
+
+.footer-list {
+  float:right;
+}
+
+.footer-list li {
+  padding-bottom:20px;
+}
+
+.footer-social {
+  float:left;
+}
