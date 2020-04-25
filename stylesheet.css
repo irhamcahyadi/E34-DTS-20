@@ -88,10 +88,18 @@ footer{
     padding-right: 5px;   
 }
 
-.fa {
-    bakground-color: white;   
+.facebook{
+    background-color: #3b5998;   
+}
+
+.twitter{
+    background-color: #55acee;
 }    
 
-.fa:hover {
+.instagram{
+    background-color: red;
+}    
+
+.btn:hover {
     opacity: 0.5;
 }    
