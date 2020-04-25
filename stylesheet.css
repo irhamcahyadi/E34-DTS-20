@@ -28,6 +28,7 @@ li a{
     padding-top: 20px; 
     margin-right: 20px;
     transition: all 0.5s;
+    float: right;
 }
 
 .navbar li {
