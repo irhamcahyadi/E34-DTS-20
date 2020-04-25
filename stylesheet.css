@@ -34,7 +34,7 @@ li a{
     float: left;
     padding-right: 20px;
     height: 65px;
-    line-height: 20px;
+    line-height: 65px;
     display:block;
 }
 
@@ -45,7 +45,7 @@ li a{
   
 header{
     background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
-    background-color:rgba(34, 49, 52, 0.1);
+    background-color: rgba(34, 49, 52, 0.1);
     background-size: cover;
     height: 400px;
 }
