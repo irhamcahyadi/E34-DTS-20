@@ -31,7 +31,8 @@ li a{
 
 .navbar:hover {
     rgba(34, 49, 52, 0.9)
-
+}
+    
 header{
     background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
     background-color:rgba(34, 49, 52, 0.1);
