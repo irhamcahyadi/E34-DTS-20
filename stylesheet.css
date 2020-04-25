@@ -10,10 +10,7 @@ ul,li{
 }
 
 nav {
-  height:65px;
-  width:100%;
-  background-color:rgba(34, 49, 52, 0.9);
-  opacity:0,5;
+
 }
 
 .header-text h4,h1{
@@ -43,12 +40,16 @@ header{
 }
 
 nav{
+    height:65px;
+    width:100%;
+    background-color:rgba(34, 49, 52, 0.9);
+    opacity:0,2;
     display: flex;
     justify-content: space-between;
 }
 
 .header-logo img{
-    padding: 20px;
+    padding-top: 20px;
     width: 100px;
     height: auto;
 }
@@ -110,7 +111,7 @@ footer{
 }    
 
 .btn {
-    padding; 0px 10px;
+    padding; 20px;
 }    
 
 .btn:hover {
