@@ -30,8 +30,8 @@ li a{
 }
 
 .navbar li {
-    transition: all 0.5s;
     display:block;
+    transition: all 0.5s;
 }
 
 .navbar li:hover {
