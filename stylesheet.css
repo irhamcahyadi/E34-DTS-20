@@ -9,10 +9,6 @@ ul,li{
     display: inline;    
 }
 
-nav {
-
-}
-
 .header-text h4,h1{
     margin: 0;
     color: Black;
@@ -49,7 +45,7 @@ nav{
 }
 
 .header-logo img{
-    padding-top: 20px;
+    padding-right: 20px;
     width: 100px;
     height: auto;
 }
