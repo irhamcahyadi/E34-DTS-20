@@ -28,11 +28,7 @@ li a{
     padding-top: 20px; 
     margin-right: 20px;
 }
-
-.navbar:hover {
-    rgba(34, 49, 52, 0.9)
-}
-    
+  
 header{
     background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
     background-color:rgba(34, 49, 52, 0.1);
@@ -47,6 +43,11 @@ nav{
     opacity:0,2;
     display: flex;
     justify-content: space-between;
+    transition: all 0.5s;
+}
+
+.nav:hover {
+    rgba(34, 49, 52, 0.9)
 }
 
 .header-logo img{
