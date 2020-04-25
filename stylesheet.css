@@ -63,7 +63,7 @@ main{
 
 footer{
     background-color: #2f5167;
-    color: #fff;
+    color: #2f5167;
     height: 50px;
     padding: 5px;
 }   
@@ -87,3 +87,7 @@ footer{
 .footer-social li{
     padding-right: 5px;   
 }
+
+.fa {
+    bakground-color: white;   
+}    
