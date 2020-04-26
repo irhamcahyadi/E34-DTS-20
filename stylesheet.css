@@ -26,9 +26,9 @@ ul, li{
     padding: 10px;
     list-style-type: none;
     display: inline;    
+}
 
-
-a{
+a {
   text-decoration: none;
 
 }
@@ -115,6 +115,7 @@ input {
     height: auto;
     margin: 40px;
     /* position: relative; */
+  }
 
 header {
   height: 65px;
