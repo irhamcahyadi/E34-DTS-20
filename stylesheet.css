@@ -1,63 +1,173 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul,li{
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul, li{
     text-decoration: none;
     padding: 10px;
     list-style-type: none;
     display: inline;    
 }
 
-.header-text h4,h1{
-    margin: 0;
-    color: Black;
+a {
+  text-decoration: none;
+
 }
 
-.header-text{
-    padding: 50px 20px 100px 100px;
+.clear {
+  clear: left;
 }
 
-li a{
-    text-decoration: none;
-    color: white;    
+/* Ketik code Anda dibawah */
+.container {
+  width: auto;
+  margin: 0 auto;
 }
 
-.navbar{
-    font-size: 16px;
-    padding-top: 20px; 
-    margin-right: 20px;
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://medici-prod.s3-us-west-2.amazonaws.com/uploads/machinelearning.jpg);
+  background-size:cover;
+  color: white;
+  text-align: center;
 }
 
-header{
-    background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
-    background-size: cover;
-    height: 400px;
+.top-wrapper h1{
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+.top-wrapper h3 {
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.header-logo img{
-    padding: 20px;
-    width: 100px;
-    height: auto;
+input {
+  border:1px solid #dee7ec;
+  width:50%;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  left: 30px;	
+  border-radius: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }
 
-.information{
-    width: 70%;
-    height: 125px;
-    background-color: white;
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: -50px;
+.icon {
+    position:relative;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    padding:20px;
+    left: -5px;
+    border-radius: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.title-team
+{
     text-align: center;
+    padding-top: 50px;
+}
+.title-team img{
+    width: 30%;
+    padding-bottom: 50px;
 }
 
+.title-team p{
+    max-width: 100%;
+    justify-content: center;
+    padding: 0px 200px;
+}
+  
+  .wrapper .our_team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .wrapper .our_team .team{
+    width: 200px;
+    height: auto;
+    margin: 40px;
+    /* position: relative; */
+  }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 25, 65, 0.9);
+  background-size: 100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left img{
+  width: auto;
+  height: 60px;
+}
+
+.header-left {
+  float: left;
+  filter: drop-shadow(1px 1px 1px white);
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -10px;
+}  
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: black;
+}
+
+.active {
+   background-color: rgba(51, 102, 153, 1);
+}
+  
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
 .konten-wrapper {
     padding-bottom: 80px;
@@ -66,45 +176,119 @@ nav{
     text-align: center;
   }
 
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-
   .team {
     float: left;
     width: 20%;
-  }
 
-  .team h4 {
-    margin-bottom: 0;
   }
   
-  .team-icon {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 100px;
+  .wrapper .our_team .team img{
+    width: 120%;
+    height: 350px;
+    display: block;
+    
   }
+  
+  .wrapper .our_team .team .team_name{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .team_name p{
+      padding-top: 10px;
+  }
+  .team_name 
+  {
+    background: #1abc9c;
+    width: 120%;
+  }
+  .team_name 
+  {
+    background: #34495e;
+    width: 120%;
+  }
+  .info{
+      width: 120%;
+      height: 50%;
+      background-color: #34495e;
+      text-align: center;
+  }
+  .info p{
+      color: #bdc3c7;
+  }
+.contact-title{
+    text-align: center;
+}
+.contact-title img{
+    width: 30%;
+    padding-top: 10px;
+}
 
-  .team-icon img {
-      width: 200px;
-      height: 200px;
-  }
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    /* background-color: silver; */
+}
 
-  .text-contents {
-    width: 80%;
-    display: inline-block;
-    font-size: 15px;
-    color: #b3aeb5;
-  }
+.card{
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 20px;
+    width: calc(15% - 10px);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.card-icon{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+    justify-content: center;
+    text-align: center;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.card p{
+    margin-top: 20px;
+    font-size: 10px;
+    letter-spacing: 5px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3 linear;
+}
+
+.card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
 
 main{
-    background-color: #44E7EB;
-    height: 600px;   
+    background-color: #ced6e0;
+    height: auto;   
 }
 
 footer{
@@ -147,10 +331,134 @@ footer{
 }    
 
 .btn {
-    padding; 0px 10px;
+    padding: 0px 10px;
 }    
 
 .btn:hover {
     opacity: 0.5;
 }    
 
+.konten-news{
+  align-content: center;
+  justify-content: center;
+}
+
+.news {
+  height: 300px;
+  width: 300px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+  margin: 20px;
+}
+
+.konten-news{
+  display: flex;
+  text-align: center;
+  margin: 80px 0px;
+}
+
+.news img {
+  border-radius: 25px 25px 0px 0px;
+  width: 250px;
+  height: auto;
+}
+
+.news1{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+    margin: 20px; 
+    background-image: url("https://blog.hacktiv8.com/content/images/2018/11/danial-ricaros-785707-unsplash-1.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.news2{
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+  margin: 20px; 
+  background-image: url("https://ekrutassets.s3.ap-southeast-1.amazonaws.com/blogs/images/000/001/542/original/software-engineering-EKRUT.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+
+.news3{
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+  margin: 20px; 
+  background-image: url("https://www.sureplus.id/wp-content/uploads/2018/09/Peluncuran-Digital-Talent-Scholarship.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+
+.berita-news1{
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(171,0,255,0) 100%);
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.title-news{
+  bottom: 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: text-bottom;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.ket-news {
+  bottom: 0;
+  padding: 10px 20px;
+  text-align: left;
+  vertical-align: text-bottom;
+  font-weight: 100px;
+  font-size: 14px;
+}
+
+.program-list {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 100px;
+}
+
+.program-list img {
+  width: 200px;
+  height: 200px ;
+}
+
+.program-list p {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.container {
+  width: 80%;
+}

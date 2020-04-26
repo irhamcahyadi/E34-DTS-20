@@ -1,116 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/bffe0dd609.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="header-logo">
-                <img src="./img/logo.png" alt="">
+    <!-- Bagian Atas dan Gambar -->
+	<header>
+        <div class="container">
+        <div class="header-left">
+          	<img src="./img/logo.png" alt="">
+        </div>
+	<span class="menu-icon"><i class="fa fa-bars"></i></span>
+	<div class="header-right">
+		<a class="active" href="#"><span class="fa fa-home"></span></a>
+		<a href="#">News</a>
+		<a href="#">Programs</a>
+		<a href="#">Team</a>
+		<a href="#">Contact</a>
+        </div>
+      </div>
+    </header>
+	
+    <div class="top-wrapper">
+      	<div class="container">
+	  	<!-- Bagian Tulisan Nama Kelompok -->
+        	<h1>DIGITAL TALENT SCHOLARSHIP</h1>
+        	<h3>Progate adalah platform online untuk belajar coding.</h3>
+      		<!-- Bagian Form Search -->
+        	<input type="search" id="search" placeholder="Search..." />
+		<span class="icon" href="#"><i class="fa fa-search"></i></span>
+	
+	  </div>
+    </div>
+	  
+    <main>
+
+        <!-- Disini Tempat Main -->
+
+        <!-- ini section News -->
+        <h1 class="title-team">News</h1>
+        <div class="konten-news">
+            <div class="news1">
+                <div class="berita-news1">
+                     <h4 class="title-news">Digital Talent Scholarship</h4> 
+                     <p class="ket-news">Tawarkan Beasiswa IT bagi masyarakat Indonesia</p>
+                </div>
             </div>
-            <!-- Disini tempat navbar -->
-            <div class="navbar">
-                <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">News</a></li>
-                    <li> <a href="#">Programs</a></li>
-                    <li> <a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <div class="news2">
+                <div class="berita-news1">
+                    <h4 class="title-news">DTS 2020 Mulai Digelar</h4> 
+                    <p class="ket-news">DTS berharap dapat cetak IT handal hingga siap saing secara global</p>
+               </div>
             </div>
-        </nav>
-        <div class="header-text">
-            <h4>DIGITAL TALENT SCHOLARSHIP</h4>
-            <h1>Group E34 DTS 2020</h1>
+            <div class="news3">
+                <div class="berita-news1">
+                    <h4 class="title-news">DTS Sudah Tahun ke-3</h4> 
+                    <p class="ket-news">Program yang berhasil mencetak IT dari tahun 2018</p>
+               </div>
+            </div>
+        </div>
+
+        <!-- ini section Program -->
+        <div class="title-team">
+            <h1>Program</h1>
+            <img src="./img/underline.png" alt="">
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="our_team">
+                    <div class="program-list">
+                        <img src="./img/html.png" alt="">
+                        <h3>HTML & CSS</h3>
+                        <p>Bahasa digunakan untuk membuat dan mendesain
+                            tampilan setiap situs web.</p>
+                    </div>
+                    <div class="program-list">
+                        <img src="./img/js.png" alt="">
+                        <h3>Javascript</h3>
+                        <p>Bahasa fleksibel yang digunakan di mana saja, mulai dari
+                            situs web interaktif hingga server backend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ini section team -->
+        <div class="title-team">
+            <h1>Our Team</h1>
+            <img src="./img/underline.png" alt="">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="wrapper">
+            <div class="our_team">
+                <div class="team">
+                    <div class="team_img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="team_name">Lorem ipsum
+                        <p>nomor pendaftaran</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team_img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="team_name">Lorem ipsum
+                        <p>nomor pendaftaran</p>
+                    </div>
+
+                </div>
+                <div class="team">
+                    <div class="team_img">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="team_name">Harris Young
+                        <p>0447677171-28</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team_img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="team_name">Iman Aidil N
+                        <p>0447677151-228</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team_img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="team_name">Lorem ipsum
+                        <p>nomor pendaftaran</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ini section Kontak -->
+        <div class="contact-title">
+            <h1>Contact</h1>
+            <img src="./img/underline.png" alt="">
+        </div>
+        <div class="contact-info">
+            <div class="card">
+                <i class="card-icon far fa-envelope"></i>
+                <p>E34DTS20@email.com</p>
+            </div>
+
+            <div class="card">
+                <i class="card-icon fas fa-phone"></i>
+                <p>+6289-0000-0000</p>
+            </div>
+
+            <div class="card">
+                <i class="card-icon fas fa-map-marker-alt"></i>
+                <p>Indonesia</p>
+            </div>
+        </div>
 
         </div>
-    </header>
-    <main>
-       <!-- Disini Tempat Main -->
-       <div class="konten-wrapper">
-
-            <!-- ini section News -->
-
-            <!-- ini section Program -->
-
-            <!-- ini section team -->
-           <div class="container">
-               <div class="heading">
-                   <h3>Our Team</h3>
-               </div>
-               <div class="team">
-                <div class="team-icon">
-                  <img src="./img/team1.jpg">
-                </div>
-                <h4>Iman Aidil N</h4>
-                 <p class="text-contents">0447677151-228</p>
-              </div>
-               <div class="team">
-                <div class="team-icon">
-                  <img src="./img/team2.png">
-                </div>
-                <h4>Nama Kamu</h4>
-                <p class="text-contents">Nomor Peserta/ Registrasi</p>
-              </div>
-               <div class="team">
-                <div class="team-icon">
-                  <img src="./img/team3.png">
-                </div>
-                <h4>Nama Kamu</h4>
-                <p class="text-contents">Nomor Peserta/ Registrasi</p>
-              </div>
-               <div class="team">
-                <div class="team-icon">
-                  <img src="./img/tema4.jpg">
-                </div>
-                <h4>Nama Kamu</h4>
-                <p class="text-contents">Nomor Peserta/ Registrasi</p>
-              </div>
-               <div class="team">
-                <div class="team-icon">
-                  <img src="./img/team5.png">
-                </div>
-                <h4>Nama Kamu</h4>
-                <p class="text-contents">Nomor Peserta/ Registrasi</p>
-              </div>
-           </div>
-
-           <!-- ini section Kontak -->
-           
-       </div>
     </main>
     <footer>
         <!-- Disini Tempat Footer -->
         <div class="footer-logo">
-        <img src="./img/logo.png" alt="">
+            <img src="./img/logo.png" alt="">
         </div>
         <div class="footer-social">
             <ul>
-            <li> 
-                <a href="#" class="btn facebook">
-                    <span class="fa fa-facebook">
-                    </span>
-                </a>
-            </li>
-            <li> 
-                <a href="#" class="btn twitter">
-                    <span class="fa fa-twitter">
-                    </span>
-                </a>
-            </li>
-            <li> 
-                <a href="#" class="btn instagram">
-                    <span class="fa fa-instagram">
-                    </span>
-                </a>
-            </li>
+                <li>
+                    <a href="#" class="btn facebook">
+                        <span class="fa fa-facebook">
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn twitter">
+                        <span class="fa fa-twitter">
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn instagram">
+                        <span class="fa fa-instagram">
+                        </span>
+                    </a>
+                </li>
             </ul>
         </div>
+
+       <!-- Disini Tempat Main -->
+    </main>
+    <footer>
+        <!-- Disini Tempat Footer -->
+
     </footer>
 </body>
+
 </html>
