@@ -3,6 +3,16 @@
 .top-wrapper h1 {
  font-size: 32px;
   }
+
+main{
+  width: 100%;
+  height: auto;
+}
+
+.konten-news {
+  display: inline-block;
+  margin: auto;
+}
   
 .heading h3 {
  font-size: 20px;
