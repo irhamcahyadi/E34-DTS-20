@@ -48,6 +48,7 @@ main{
     text-align: left;
   }
 
+
   .program-list {
     float: left;
     width: 100%;
@@ -55,4 +56,6 @@ main{
     padding-right: 10px;
     margin-bottom: 100px;
   }
-}
+
+
+
