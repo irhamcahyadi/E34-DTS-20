@@ -204,6 +204,7 @@ header {
   {
     background: #1abc9c;
     width: 120%;
+
   }
   .team_name 
   {
@@ -219,6 +220,23 @@ header {
   .info p{
       color: #bdc3c7;
   }
+
+  
+  .team_name 
+  {
+    background: #34495e;
+    width: 120%;
+  }
+  .info{
+      width: 120%;
+      height: 50%;
+      background-color: #34495e;
+      text-align: center;
+  }
+  .info p{
+      color: #bdc3c7;
+  }
+
 .contact-title{
     text-align: center;
 }
@@ -439,4 +457,28 @@ footer{
   vertical-align: text-bottom;
   font-weight: 100px;
   font-size: 14px;
+
+}
+
+.program-list {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 100px;
+}
+
+.program-list img {
+  width: 200px;
+  height: 200px ;
+}
+
+.program-list p {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.container {
+  width: 80%;
+
 }

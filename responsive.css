@@ -47,4 +47,15 @@ main{
     line-height: 20px;
     text-align: left;
   }
-}
+
+
+  .program-list {
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+  }
+
+
+
